@@ -1,0 +1,6 @@
+name = input (" Как тебя зовут? ") 
+year = int(input (" В каком году ты родился? "))
+year2 = int(input (" Какой сейчас год? " ))
+age = (year2 - year)
+print ("Тебе, " + name + " " + str(age) + " лет")
+print ("Через 10 лет тебе будет " +  str(age + 10))
